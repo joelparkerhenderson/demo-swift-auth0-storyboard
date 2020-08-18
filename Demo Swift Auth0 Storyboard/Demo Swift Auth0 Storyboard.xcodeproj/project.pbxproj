@@ -1,0 +1,606 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5D7812FC24EB63800007D692 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D7812FB24EB63800007D692 /* AppDelegate.swift */; };
+		5D7812FE24EB63800007D692 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D7812FD24EB63800007D692 /* SceneDelegate.swift */; };
+		5D78130024EB63800007D692 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D7812FF24EB63800007D692 /* ViewController.swift */; };
+		5D78130324EB63800007D692 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D78130124EB63800007D692 /* Main.storyboard */; };
+		5D78130624EB63800007D692 /* Demo_Swift_Auth0_Storyboard.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5D78130424EB63800007D692 /* Demo_Swift_Auth0_Storyboard.xcdatamodeld */; };
+		5D78130824EB63890007D692 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5D78130724EB63890007D692 /* Assets.xcassets */; };
+		5D78130B24EB63890007D692 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D78130924EB63890007D692 /* LaunchScreen.storyboard */; };
+		5D78131624EB63890007D692 /* Demo_Swift_Auth0_StoryboardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D78131524EB63890007D692 /* Demo_Swift_Auth0_StoryboardTests.swift */; };
+		5D78132124EB638A0007D692 /* Demo_Swift_Auth0_StoryboardUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D78132024EB638A0007D692 /* Demo_Swift_Auth0_StoryboardUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5D78131224EB63890007D692 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5D7812F024EB63800007D692 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5D7812F724EB63800007D692;
+			remoteInfo = "Demo Swift Auth0 Storyboard";
+		};
+		5D78131D24EB638A0007D692 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5D7812F024EB63800007D692 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5D7812F724EB63800007D692;
+			remoteInfo = "Demo Swift Auth0 Storyboard";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5D7812F824EB63800007D692 /* Demo Swift Auth0 Storyboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Demo Swift Auth0 Storyboard.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D7812FB24EB63800007D692 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5D7812FD24EB63800007D692 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		5D7812FF24EB63800007D692 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5D78130224EB63800007D692 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5D78130524EB63800007D692 /* Demo_Swift_Auth0_Storyboard.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Demo_Swift_Auth0_Storyboard.xcdatamodel; sourceTree = "<group>"; };
+		5D78130724EB63890007D692 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5D78130A24EB63890007D692 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5D78130C24EB63890007D692 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5D78131124EB63890007D692 /* Demo Swift Auth0 StoryboardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Demo Swift Auth0 StoryboardTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D78131524EB63890007D692 /* Demo_Swift_Auth0_StoryboardTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Demo_Swift_Auth0_StoryboardTests.swift; sourceTree = "<group>"; };
+		5D78131724EB63890007D692 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5D78131C24EB638A0007D692 /* Demo Swift Auth0 StoryboardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Demo Swift Auth0 StoryboardUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D78132024EB638A0007D692 /* Demo_Swift_Auth0_StoryboardUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Demo_Swift_Auth0_StoryboardUITests.swift; sourceTree = "<group>"; };
+		5D78132224EB638A0007D692 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5D7812F524EB63800007D692 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D78130E24EB63890007D692 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D78131924EB638A0007D692 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5D7812EF24EB63800007D692 = {
+			isa = PBXGroup;
+			children = (
+				5D7812FA24EB63800007D692 /* Demo Swift Auth0 Storyboard */,
+				5D78131424EB63890007D692 /* Demo Swift Auth0 StoryboardTests */,
+				5D78131F24EB638A0007D692 /* Demo Swift Auth0 StoryboardUITests */,
+				5D7812F924EB63800007D692 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5D7812F924EB63800007D692 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5D7812F824EB63800007D692 /* Demo Swift Auth0 Storyboard.app */,
+				5D78131124EB63890007D692 /* Demo Swift Auth0 StoryboardTests.xctest */,
+				5D78131C24EB638A0007D692 /* Demo Swift Auth0 StoryboardUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5D7812FA24EB63800007D692 /* Demo Swift Auth0 Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				5D7812FB24EB63800007D692 /* AppDelegate.swift */,
+				5D7812FD24EB63800007D692 /* SceneDelegate.swift */,
+				5D7812FF24EB63800007D692 /* ViewController.swift */,
+				5D78130124EB63800007D692 /* Main.storyboard */,
+				5D78130724EB63890007D692 /* Assets.xcassets */,
+				5D78130924EB63890007D692 /* LaunchScreen.storyboard */,
+				5D78130C24EB63890007D692 /* Info.plist */,
+				5D78130424EB63800007D692 /* Demo_Swift_Auth0_Storyboard.xcdatamodeld */,
+			);
+			path = "Demo Swift Auth0 Storyboard";
+			sourceTree = "<group>";
+		};
+		5D78131424EB63890007D692 /* Demo Swift Auth0 StoryboardTests */ = {
+			isa = PBXGroup;
+			children = (
+				5D78131524EB63890007D692 /* Demo_Swift_Auth0_StoryboardTests.swift */,
+				5D78131724EB63890007D692 /* Info.plist */,
+			);
+			path = "Demo Swift Auth0 StoryboardTests";
+			sourceTree = "<group>";
+		};
+		5D78131F24EB638A0007D692 /* Demo Swift Auth0 StoryboardUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5D78132024EB638A0007D692 /* Demo_Swift_Auth0_StoryboardUITests.swift */,
+				5D78132224EB638A0007D692 /* Info.plist */,
+			);
+			path = "Demo Swift Auth0 StoryboardUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5D7812F724EB63800007D692 /* Demo Swift Auth0 Storyboard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5D78132524EB638A0007D692 /* Build configuration list for PBXNativeTarget "Demo Swift Auth0 Storyboard" */;
+			buildPhases = (
+				5D7812F424EB63800007D692 /* Sources */,
+				5D7812F524EB63800007D692 /* Frameworks */,
+				5D7812F624EB63800007D692 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Demo Swift Auth0 Storyboard";
+			productName = "Demo Swift Auth0 Storyboard";
+			productReference = 5D7812F824EB63800007D692 /* Demo Swift Auth0 Storyboard.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5D78131024EB63890007D692 /* Demo Swift Auth0 StoryboardTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5D78132824EB638A0007D692 /* Build configuration list for PBXNativeTarget "Demo Swift Auth0 StoryboardTests" */;
+			buildPhases = (
+				5D78130D24EB63890007D692 /* Sources */,
+				5D78130E24EB63890007D692 /* Frameworks */,
+				5D78130F24EB63890007D692 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5D78131324EB63890007D692 /* PBXTargetDependency */,
+			);
+			name = "Demo Swift Auth0 StoryboardTests";
+			productName = "Demo Swift Auth0 StoryboardTests";
+			productReference = 5D78131124EB63890007D692 /* Demo Swift Auth0 StoryboardTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5D78131B24EB638A0007D692 /* Demo Swift Auth0 StoryboardUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5D78132B24EB638A0007D692 /* Build configuration list for PBXNativeTarget "Demo Swift Auth0 StoryboardUITests" */;
+			buildPhases = (
+				5D78131824EB638A0007D692 /* Sources */,
+				5D78131924EB638A0007D692 /* Frameworks */,
+				5D78131A24EB638A0007D692 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5D78131E24EB638A0007D692 /* PBXTargetDependency */,
+			);
+			name = "Demo Swift Auth0 StoryboardUITests";
+			productName = "Demo Swift Auth0 StoryboardUITests";
+			productReference = 5D78131C24EB638A0007D692 /* Demo Swift Auth0 StoryboardUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5D7812F024EB63800007D692 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1160;
+				LastUpgradeCheck = 1160;
+				ORGANIZATIONNAME = JoelParkerHenderson.com;
+				TargetAttributes = {
+					5D7812F724EB63800007D692 = {
+						CreatedOnToolsVersion = 11.6;
+					};
+					5D78131024EB63890007D692 = {
+						CreatedOnToolsVersion = 11.6;
+						TestTargetID = 5D7812F724EB63800007D692;
+					};
+					5D78131B24EB638A0007D692 = {
+						CreatedOnToolsVersion = 11.6;
+						TestTargetID = 5D7812F724EB63800007D692;
+					};
+				};
+			};
+			buildConfigurationList = 5D7812F324EB63800007D692 /* Build configuration list for PBXProject "Demo Swift Auth0 Storyboard" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5D7812EF24EB63800007D692;
+			productRefGroup = 5D7812F924EB63800007D692 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5D7812F724EB63800007D692 /* Demo Swift Auth0 Storyboard */,
+				5D78131024EB63890007D692 /* Demo Swift Auth0 StoryboardTests */,
+				5D78131B24EB638A0007D692 /* Demo Swift Auth0 StoryboardUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5D7812F624EB63800007D692 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D78130B24EB63890007D692 /* LaunchScreen.storyboard in Resources */,
+				5D78130824EB63890007D692 /* Assets.xcassets in Resources */,
+				5D78130324EB63800007D692 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D78130F24EB63890007D692 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D78131A24EB638A0007D692 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5D7812F424EB63800007D692 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D78130024EB63800007D692 /* ViewController.swift in Sources */,
+				5D7812FC24EB63800007D692 /* AppDelegate.swift in Sources */,
+				5D78130624EB63800007D692 /* Demo_Swift_Auth0_Storyboard.xcdatamodeld in Sources */,
+				5D7812FE24EB63800007D692 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D78130D24EB63890007D692 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D78131624EB63890007D692 /* Demo_Swift_Auth0_StoryboardTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D78131824EB638A0007D692 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D78132124EB638A0007D692 /* Demo_Swift_Auth0_StoryboardUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5D78131324EB63890007D692 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5D7812F724EB63800007D692 /* Demo Swift Auth0 Storyboard */;
+			targetProxy = 5D78131224EB63890007D692 /* PBXContainerItemProxy */;
+		};
+		5D78131E24EB638A0007D692 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5D7812F724EB63800007D692 /* Demo Swift Auth0 Storyboard */;
+			targetProxy = 5D78131D24EB638A0007D692 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5D78130124EB63800007D692 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5D78130224EB63800007D692 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5D78130924EB63890007D692 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5D78130A24EB63890007D692 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5D78132324EB638A0007D692 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5D78132424EB638A0007D692 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5D78132624EB638A0007D692 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Demo Swift Auth0 Storyboard/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.joelparkerhenderson.Demo-Swift-Auth0-Storyboard";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5D78132724EB638A0007D692 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Demo Swift Auth0 Storyboard/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.joelparkerhenderson.Demo-Swift-Auth0-Storyboard";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5D78132924EB638A0007D692 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Demo Swift Auth0 StoryboardTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.joelparkerhenderson.Demo-Swift-Auth0-StoryboardTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Demo Swift Auth0 Storyboard.app/Demo Swift Auth0 Storyboard";
+			};
+			name = Debug;
+		};
+		5D78132A24EB638A0007D692 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Demo Swift Auth0 StoryboardTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.joelparkerhenderson.Demo-Swift-Auth0-StoryboardTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Demo Swift Auth0 Storyboard.app/Demo Swift Auth0 Storyboard";
+			};
+			name = Release;
+		};
+		5D78132C24EB638A0007D692 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Demo Swift Auth0 StoryboardUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.joelparkerhenderson.Demo-Swift-Auth0-StoryboardUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Demo Swift Auth0 Storyboard";
+			};
+			name = Debug;
+		};
+		5D78132D24EB638A0007D692 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Demo Swift Auth0 StoryboardUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.joelparkerhenderson.Demo-Swift-Auth0-StoryboardUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Demo Swift Auth0 Storyboard";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5D7812F324EB63800007D692 /* Build configuration list for PBXProject "Demo Swift Auth0 Storyboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5D78132324EB638A0007D692 /* Debug */,
+				5D78132424EB638A0007D692 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5D78132524EB638A0007D692 /* Build configuration list for PBXNativeTarget "Demo Swift Auth0 Storyboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5D78132624EB638A0007D692 /* Debug */,
+				5D78132724EB638A0007D692 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5D78132824EB638A0007D692 /* Build configuration list for PBXNativeTarget "Demo Swift Auth0 StoryboardTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5D78132924EB638A0007D692 /* Debug */,
+				5D78132A24EB638A0007D692 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5D78132B24EB638A0007D692 /* Build configuration list for PBXNativeTarget "Demo Swift Auth0 StoryboardUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5D78132C24EB638A0007D692 /* Debug */,
+				5D78132D24EB638A0007D692 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		5D78130424EB63800007D692 /* Demo_Swift_Auth0_Storyboard.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				5D78130524EB63800007D692 /* Demo_Swift_Auth0_Storyboard.xcdatamodel */,
+			);
+			currentVersion = 5D78130524EB63800007D692 /* Demo_Swift_Auth0_Storyboard.xcdatamodel */;
+			path = Demo_Swift_Auth0_Storyboard.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 5D7812F024EB63800007D692 /* Project object */;
+}
